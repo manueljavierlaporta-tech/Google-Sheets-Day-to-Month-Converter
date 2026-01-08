@@ -7,14 +7,11 @@ This project contains a **Google Apps Script** associated to a personalized **Go
 <div>
       <p>In an <b>advertising agency</b>, the order of orders and their data entry are managed using a Google Sheets spreadsheet, divided into different sheets:</p>
       <ol type="A">
-            <b>A.</b> Some sheets are individual sheets corresponding to each Account Executive, where each one must enter certain important information:  
-            <li>Work Order</li>
+            <li>Some sheets are individual sheets corresponding to each Account Executive, where each one must enter certain important information:  </li>
+           <ul>
+                <li>Work Order</li> 
+           </ul>
       </ol>
-      <ul style="list-style: none; padding-left: 0;">
-        <li><strong>A.</strong> Primer ítem</li>
-        <li><strong>B.</strong> Segundo ítem</li>
-        <li><strong>C.</strong> Tercer ítem</li>
-      </ul>
 </div>
 
 
