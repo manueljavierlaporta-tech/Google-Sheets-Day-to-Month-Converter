@@ -97,11 +97,11 @@ function DayMonthInverter() {
       }
     } 
   }
-
   StatusSheet.getSheetByName('DELIVERED').getRange('B2:B2000').setValues(entryDateArray);
 }
 ```
 
+This is a, more or less, *happy path*. 
 Nevertheless, I found some problems while implementing the first code:  
 <div>
       <ol>
