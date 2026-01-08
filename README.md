@@ -21,5 +21,6 @@ In an **advertising agency**, the order of orders and their data entry are manag
 
 Naturally, if you're from the US you wouldn't need any converter, because you would simply enter dates like this:
   - `MM/DD/YYYY`
+
 But here in Argentina, it's the norm to use the following date structure:
   - `DD/MM/YYYY`
