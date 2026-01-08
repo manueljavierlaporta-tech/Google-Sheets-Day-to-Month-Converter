@@ -52,4 +52,6 @@ This project contains a **Google Apps Script** associated to a personalized **Go
   
 > [!NOTE]
 > First of all, cells to the right of each month are mostly blank because of the use IFERROR function (native to Google Sheets).  
-> Second of all, you can CLEARLY see that 
+> Second of all, you can CLEARLY see that the sum of functions is giving me an incorrect result.
+
+
