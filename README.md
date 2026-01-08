@@ -27,10 +27,10 @@ This project contains a **Google Apps Script** associated to a personalized **Go
       <p>Naturally, if you're from the US you wouldn't need any converter, because you would simply enter dates like this:  
             <blockquote>
               MM/DD/YYYY
-            </blockquote>
+            </blockquote>  
       But here in Argentina, it's the norm to use the following date structure:    
             <blockquote>
-              DD/MM/YYYY
+                DD/MM/YYYY
             </blockquote>
       </p>
 </div>
