@@ -10,7 +10,6 @@ This project contains a **Google Apps Script** associated to a personalized **Go
             <b>A.</b> Some sheets are individual sheets corresponding to each Account Executive, where each one must enter certain important information:  
             <li>Work Order</li>
       </ol>
-
       <ul style="list-style: none; padding-left: 0;">
         <li><strong>A.</strong> Primer ítem</li>
         <li><strong>B.</strong> Segundo ítem</li>
