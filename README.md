@@ -101,11 +101,24 @@ function DayMonthInverter() {
 }
 ```
 
-This is a, more or less, *happy path*. 
-Nevertheless, I found some problems while implementing the first code:  
+This is a, more or less, *happy path*, because I assumed there would be no problem of any kind. Nevertheless, I did found some problems.
 <div>
-      <ol>
-            <li></li>
-      </ol>
+      <ul>
+            <li>In the first place, I found that some months were 1 and 4 characters long (I truly don't know what the other Account Executive were typing).</li>
+            <li>Similar to the above, some days were 1 character long.</li>
+      </ul>
 </div>
+
+So, I implemented these simple **if else**s:  
+```
+if(month.length < 2){
+      month = "0"+month;
+} else if(month.length > 2){
+      month = month[0]+month[1];
+}
+
+if(day.length < 2){
+      day = "0"+day;
+}
+```
 
