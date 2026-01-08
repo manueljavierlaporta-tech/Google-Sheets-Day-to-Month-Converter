@@ -34,4 +34,3 @@ This project contains a **Google Apps Script** associated to a personalized **Go
             </blockquote>
       </p>
 </div>
-</p> 
