@@ -43,5 +43,5 @@ This project contains a **Google Apps Script** associated to a personalized **Go
       <p>
             Due to restrictions imposed by the Advertising Agency and the clients we work for, I cannot show real data, but I have taken the trouble to supplement it with example data to make it understandable:
       </p>
-      <img src="assets/Delivered Sheet 1.png" alt="" width="600">
+      <img src="assets/Delivered Sheet 1.png" alt="" >
 </div>
