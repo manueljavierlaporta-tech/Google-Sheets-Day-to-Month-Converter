@@ -109,7 +109,7 @@ This is a, more or less, *happy path*, because I assumed there would be no probl
       </ul>
 </div>
 
-So, I implemented these simple **if else**s:  
+So, I implemented these simple **if else**'s:  
 ```
 if(month.length < 2){
       month = "0"+month;
@@ -121,4 +121,5 @@ if(day.length < 2){
       day = "0"+day;
 }
 ```
-
+---
+And that's pretty much it. 🤙🏻
