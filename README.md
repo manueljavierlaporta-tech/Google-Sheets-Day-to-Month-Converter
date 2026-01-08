@@ -37,7 +37,7 @@ This project contains a **Google Apps Script** associated to a personalized **Go
       </p>
 </div>
 
-## 🧱 Google Sheets Structure
+## 📊 Google Sheets Structure
 
 <div>
       <p>
@@ -51,7 +51,34 @@ This project contains a **Google Apps Script** associated to a personalized **Go
 </div>
   
 > [!NOTE]
-> First of all, cells to the right of each month are mostly blank because of the use IFERROR function (native to Google Sheets).  
+> First of all, cells on the right of each month are mostly blank because of the use IFERROR function (native to Google Sheets).  
 > Second of all, you can CLEARLY see that the sum of functions is giving me an incorrect result.
 
+## 🎯 Script Objetive
 
+So, the script has to:
+<div>
+      <ol>
+            <li>Find the <b>ENTRY DATE</b> column.</li>
+            <li>Iterate through it.</li>
+            <li>Reorder the value from each cell in that range.</li>
+      </ol>
+</div>
+
+Nevertheless, I found some problems while implementing the first code:  
+      - 
+El script:
+
+- Recorre la columna **ENTRY** del Sheet `DELIVERED`
+- Detecta fechas ingresadas como:
+  - Objetos `Date`
+  - Strings en formato `DD/MM/YYYY`
+- Reordena los valores al formato:
+
+- Iterates through the **ENTRY** column of the `DELIVERED` sheet.
+- Detects dates entered as:
+
+- `Date` objects
+
+- Strings in `DD/MM/YYYY` format
+- Reorders the values ​​to the following format:
