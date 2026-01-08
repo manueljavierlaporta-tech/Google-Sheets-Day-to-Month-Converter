@@ -28,7 +28,7 @@ This project contains a **Google Apps Script** associated to a personalized **Go
             <blockquote>
               MM/DD/YYYY
             </blockquote>  
-      But here in Argentina, it's the norm to use the following date structure:    
+      But here in Argentina, it's the norm to use the following date structure:      
             <blockquote>
               DD/MM/YYYY
             </blockquote>
