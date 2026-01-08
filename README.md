@@ -62,9 +62,70 @@ So, the script has to:
             <li>Find the <b>ENTRY DATE</b> column.</li>
             <li>Iterate through it.</li>
             <li>Reorder the value from each cell in that range.</li>
+            <li>Set the values in the same range.</li>
       </ol>
 </div>
 
+This was my first attempt:
+```
+function DayMonthInverter() {
+  for(let i = 0; i < DeliveredSheet.length; i++){
+    if(typeof DeliveredSheet[i][0] == "object") {
+      let objectString = JSON.stringify(DeliveredSheet[i][0]);
+      let objectStringWithoutT = objectString.split("T")[0].split('"')[1];
+
+      let year = '2025';
+      let month = objectStringWithoutT.split("-")[2];
+      let day = objectStringWithoutT.split("-")[1];
+
+      if(month.length < 2){
+        month = "0"+month;
+      } else if(month.length > 2){
+        month = month[0]+month[1];
+      }
+
+      if(day.length < 2){
+        day = "0"+day;
+      }
+
+      let fullDate = `${month}/${day}/${year}`;
+
+      entryDateArray.push([fullDate]);
+    } else if (typeof DeliveredSheet[i][0] == "string"){
+      if(DeliveredSheet[i][0] == ""){
+        entryDateArray.push([""]);
+      } else {
+        let cadena = DeliveredSheet[i][0];
+      
+        let year = '2025';
+        let month = cadena.split("/")[1];
+        let day = cadena.split("/")[0];
+
+        if(month.length < 2){
+          month = "0"+month;
+        } else if(month.length > 2){
+          month = month[0]+month[1];
+        }
+
+        if(day.length < 2){
+          day = "0"+day;
+        }
+
+        let fullDate = `${month}/${day}/${year}`;
+
+        entryDateArray.push([fullDate]);
+      }
+    } 
+  }
+
+  StatusSheet.getSheetByName('DELIVERED').getRange('B2:B2000').setValues(entryDateArray);
+}
+```
+
 Nevertheless, I found some problems while implementing the first code:  
-      - 
+<div>
+      <ol>
+            <li></li>
+      </ol>
+</div>
 
