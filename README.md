@@ -31,6 +31,7 @@ This project contains a **Google Apps Script** associated to a personalized **Go
       But here in Argentina, it's the norm to use the following date structure:      
             <blockquote>
               DD/MM/YYYY
-            </blockquote>
+            </blockquote>  
+      This provoques an unwanted error when I implement a DATE function (native to Google Sheets) inside of a SUM and FILTER function (also native to Google Sheets), because the order of the parameters expected in the cell are _month/day/year_, but it's receiving _day/month/year_ instead.
       </p>
 </div>
