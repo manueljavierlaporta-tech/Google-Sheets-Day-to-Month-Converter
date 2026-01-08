@@ -9,7 +9,7 @@ This project contains a **Google Apps Script** associated to a personalized **Go
       <ol type="A">
             <li>Some sheets are individual sheets corresponding to each Account Executive, where each one must enter certain important information:  </li>
             <ul>
-                  <li>Work Order</li>
+                  <li>Work Order</li><br />
                   <blockquote>
                     Esto es un blockquote
                   </blockquote>
