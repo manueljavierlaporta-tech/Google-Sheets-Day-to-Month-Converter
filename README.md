@@ -67,18 +67,4 @@ So, the script has to:
 
 Nevertheless, I found some problems while implementing the first code:  
       - 
-El script:
 
-- Recorre la columna **ENTRY** del Sheet `DELIVERED`
-- Detecta fechas ingresadas como:
-  - Objetos `Date`
-  - Strings en formato `DD/MM/YYYY`
-- Reordena los valores al formato:
-
-- Iterates through the **ENTRY** column of the `DELIVERED` sheet.
-- Detects dates entered as:
-
-- `Date` objects
-
-- Strings in `DD/MM/YYYY` format
-- Reorders the values ​​to the following format:
