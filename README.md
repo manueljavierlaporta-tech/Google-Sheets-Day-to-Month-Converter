@@ -10,7 +10,6 @@ This project contains a **Google Apps Script** associated to a personalized **Go
             <li>Some sheets are individual sheets corresponding to each Account Executive, where each one must enter certain important information:  </li>
             <ul>
                   <li>Work Order</li>
-                  
                   <li>Date Received</li>
                   <li>Date Sketched</li>
                   <li>Deadline</li>
@@ -22,6 +21,7 @@ This project contains a **Google Apps Script** associated to a personalized **Go
                   <li>Name of Account Executive</li>
                   <li>Name of Graphic Designer</li>
            </ul>
+           <li>Other sheets are also individual, but these correspond to each month of the year, where the jobs are separated by a set of columns representing both the Account Executive and the Graphic Designer, and the columns are differentiated by clearly defined days within weeks.  </li>
       </ol>
 </div>
 
