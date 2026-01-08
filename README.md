@@ -5,7 +5,7 @@ This project contains a **Google Apps Script** associated to a personalized **Go
 ## Workflow
 
 <div>
-      <p>In an <b>advertising agency</b>, the order of orders and their data entry are managed using a Google Sheets spreadsheet, divided into different sheets:  </p>
+      <p>In an <b>advertising agency</b>, the order of orders and their data entry are managed using a Google Sheets spreadsheet, divided into different sheets:</p>
       <ul>
             <b>A.</b> Some sheets are individual sheets corresponding to each Account Executive, where each one must enter certain important information:  
       </ul>
