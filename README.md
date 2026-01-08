@@ -49,4 +49,6 @@ This project contains a **Google Apps Script** associated to a personalized **Go
       </p>
       <img src="assets/Delivered Sheet 2.png" alt="" >
 </div>
+
 > [!NOTE]
+> Nota
