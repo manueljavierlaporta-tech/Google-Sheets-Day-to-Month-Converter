@@ -29,10 +29,19 @@ This project contains a **Google Apps Script** associated to a personalized **Go
               MM/DD/YYYY
             </blockquote>  
       But here in Argentina, it's the norm to use the following date structure:
-      <br />
             <blockquote>
               DD/MM/YYYY
             </blockquote>  
-      This provoques an unwanted error when I implement a DATE function (native to Google Sheets) inside of a SUM and FILTER function (also native to Google Sheets), because the order of the parameters expected in the cell are _month/day/year_, but it's receiving _day/month/year_ instead.
+      This provoques an unwanted error when I implement a DATE function (native to Google Sheets) inside of a SUM and FILTER function (also native to Google Sheets), because the order of the parameters expected in the cell are *month/day/year*, but it's receiving 
+      *day/month/year* instead.
+      </p>
+</div>
+
+## 🧱 Google Sheets Structure
+
+<div>
+      <p>
+            Due to restrictions imposed by the Advertising Agency and the clients we work for, I cannot show real data, but I have taken the trouble to supplement it with example data to make it understandable:
+            ![Descripción de la imagen](assets/Delivered Sheet 1.png)
       </p>
 </div>
