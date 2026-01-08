@@ -21,7 +21,8 @@ This project contains a **Google Apps Script** associated to a personalized **Go
                   <li>Name of Account Executive</li>
                   <li>Name of Graphic Designer</li>
            </ul>
-           <li>Other sheets are also individual, but these correspond to each month of the year, where the jobs are separated by a set of columns representing both the Account Executive and the Graphic Designer, and the columns are differentiated by clearly defined days within weeks.  </li>
+           <br />
+           <li>Other sheets are also individual, but these correspond to each month of the year, where the jobs are separated by a set of columns representing both the Account Executive and the Graphic Designer, and the columns are differentiated by clearly defined days             within weeks.  </li>
       </ol>
 </div>
 
