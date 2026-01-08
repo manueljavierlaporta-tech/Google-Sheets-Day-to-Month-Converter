@@ -78,16 +78,6 @@ function DayMonthInverter() {
       let month = objectStringWithoutT.split("-")[2];
       let day = objectStringWithoutT.split("-")[1];
 
-      if(month.length < 2){
-        month = "0"+month;
-      } else if(month.length > 2){
-        month = month[0]+month[1];
-      }
-
-      if(day.length < 2){
-        day = "0"+day;
-      }
-
       let fullDate = `${month}/${day}/${year}`;
 
       entryDateArray.push([fullDate]);
@@ -100,16 +90,6 @@ function DayMonthInverter() {
         let year = '2025';
         let month = cadena.split("/")[1];
         let day = cadena.split("/")[0];
-
-        if(month.length < 2){
-          month = "0"+month;
-        } else if(month.length > 2){
-          month = month[0]+month[1];
-        }
-
-        if(day.length < 2){
-          day = "0"+day;
-        }
 
         let fullDate = `${month}/${day}/${year}`;
 
