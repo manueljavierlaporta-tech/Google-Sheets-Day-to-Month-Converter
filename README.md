@@ -8,8 +8,18 @@ This project contains a **Google Apps Script** associated to a personalized **Go
       <p>In an <b>advertising agency</b>, the order of orders and their data entry are managed using a Google Sheets spreadsheet, divided into different sheets:</p>
       <ol type="A">
             <li>Some sheets are individual sheets corresponding to each Account Executive, where each one must enter certain important information:  </li>
-           <ul type="-">
-                <li>Work Order</li> 
+            <ul>
+                  <li>Work Order</li>
+                  <li>Date Received</li>
+                  <li>Date Sketched</li>
+                  <li>Deadline</li>
+                  <li>Client</li>
+                  <li>Subject of Order</li>
+                  <li>Type of Material</li>
+                  <li>Quantity of Material</li>
+                  <li>Status</li>
+                  <li>Name of Account Executive</li>
+                  <li>Name of Graphic Designer</li>
            </ul>
       </ol>
 </div>
