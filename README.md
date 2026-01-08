@@ -47,7 +47,7 @@ This project contains a **Google Apps Script** associated to a personalized **Go
       <p>
             And this is the counter of materials for each month:
       </p>
-      <img src="assets/Delivered Sheet 2.png" alt="" >
+      <img src="assets/Delivered Sheet 2a.png" alt="" >
 </div>
   
 > [!NOTE]
