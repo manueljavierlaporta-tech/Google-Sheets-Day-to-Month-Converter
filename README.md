@@ -4,10 +4,9 @@ This project contains a **Google Apps Script** associated to a personalized **Go
 
 ## Workflow
 
-<p>Foo<br />
-***</p> 
+<p>
 In an **advertising agency**, the order of orders and their data entry are managed using a Google Sheets spreadsheet, divided into different sheets:  
- **a.** Some sheets are individual sheets corresponding to each Account Executive, where each one must enter certain important information:  
+<br />**a.** Some sheets are individual sheets corresponding to each Account Executive, where each one must enter certain important information:  
       - Work Order  
       - Date Received  
       - Date Sketched  
@@ -26,3 +25,5 @@ Naturally, if you're from the US you wouldn't need any converter, because you wo
 
 But here in Argentina, it's the norm to use the following date structure:
   - `DD/MM/YYYY`
+</p> 
+
