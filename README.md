@@ -18,12 +18,12 @@ In an <b>advertising agency</b>, the order of orders and their data entry are ma
       - Status  
       - Name of Account Executive  
       - Name of Graphic Designer  
-  <b>B</b> Other sheets are also individual, but these correspond to each month of the year, where the jobs are separated by a set of columns representing both the Account Executive and the Graphic Designer, and the columns are differentiated by clearly defined days within weeks.
+  <b>B.</b> Other sheets are also individual, but these correspond to each month of the year, where the jobs are separated by a set of columns representing both the Account Executive and the Graphic Designer, and the columns are differentiated by clearly defined days within weeks.
 
-Naturally, if you're from the US you wouldn't need any converter, because you would simply enter dates like this:
-  - `MM/DD/YYYY`
+Naturally, if you're from the US you wouldn't need any converter, because you would simply enter dates like this:  
+  > `MM/DD/YYYY`
 
-But here in Argentina, it's the norm to use the following date structure:
+But here in Argentina, it's the norm to use the following date structure:  
   - `DD/MM/YYYY`
 </p> 
 
