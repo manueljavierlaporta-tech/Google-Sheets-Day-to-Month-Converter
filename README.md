@@ -121,5 +121,19 @@ if(day.length < 2){
       day = "0"+day;
 }
 ```
+
+## ✅ Google Sheets Structure
+
+<div>
+      <p>
+            Finally, with this code implemented the result looks like this:
+      </p>
+      <img src="assets/Delivered Sheet 3.png" alt="" >
+      <img src="assets/Delivered Sheet 4.png" alt="" >
+</div>
+
 ---
-And that's pretty much it. 🤙🏻
+
+## FYI  
+
+I know you wouldn't need this kind of code to just change 3 rows, but rememeber I'm talking about an example Google Sheets. The real Google Sheets has **thousands** of rows, so I ain't doing that by hand.
