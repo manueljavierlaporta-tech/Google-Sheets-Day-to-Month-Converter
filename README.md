@@ -51,5 +51,5 @@ This project contains a **Google Apps Script** associated to a personalized **Go
 </div>
   
 > [!NOTE]
-> First of all, cells to the right of each month are mostly blank because of the use IFERROR function (native to Google Sheets).
+> First of all, cells to the right of each month are mostly blank because of the use IFERROR function (native to Google Sheets).  
 > Second of all, you can CLEARLY see that 
